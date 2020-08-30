@@ -14,8 +14,10 @@ export default class Font extends React.Component{
         return(
             <div>
                 <select onClick={this.getFont}>
-                     {fonts.map((font , index)=>{})
-                
+                     {fonts.map(font =>{
+                      return   <option>{font.nome} </option>
+                     })
+                        
                      }
                    
                 </select>
