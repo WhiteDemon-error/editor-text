@@ -5,19 +5,18 @@ import React from 'react';
 export default class Font extends React.Component{
 
 
-    getFont=()=>{
+    getFont=()=>{ //pega o nome da fonta qu eesta selecionada
       let font=  document.querySelector("select").options[document.querySelector("select").selectedIndex].text;
-      console.log(font);
+      
     }
-    render(){
+    render(){ // exibi os nome de todas as fontes cadastradas
         const fonts=this.props.fontes;
         return(
             <div>
                 <select onClick={this.getFont}>
-                     {fonts.map(font =>{
+                     {/*fonts.map(font =>{
                       return   <option>{font.nome} </option>
-                     })
-                        
+                     })  */   
                      }
                    
                 </select>
