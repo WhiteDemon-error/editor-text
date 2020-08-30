@@ -5,10 +5,6 @@ import React from 'react';
 export default class Font extends React.Component{
 
 
-constructor(){
-    super();
-   
-}
     getFont=()=>{
       let font=  document.querySelector("select").options[document.querySelector("select").selectedIndex].text;
       console.log(font);
