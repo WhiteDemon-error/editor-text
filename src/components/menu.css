@@ -1,0 +1,17 @@
+.menu{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    box-shadow: black 0px 0px 10px;
+}
+div{
+    margin-bottom: 5px;
+}
+.item{
+    margin-top: 5px ;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+ 
+   
+}
